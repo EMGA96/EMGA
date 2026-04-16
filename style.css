@@ -69,6 +69,7 @@
 .fondo1{
     background-image: url(Pictures/atlantis.jpg);
     background-size: cover;
+    background-position: center;
     display: block;
     position: relative;
     width: 100%;
