@@ -62,7 +62,7 @@
     border-radius: 12px;
 }
 .textos{
-    text-align: justify;
+    text-align: center;
     color: whitesmoke;
     background-color: #252e1d;
     display: inline-block;
@@ -97,6 +97,11 @@
 
 .card{
     background-color: #252e1d;
+}
+
+.separacion{
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 body{
