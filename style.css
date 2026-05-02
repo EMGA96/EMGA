@@ -1,20 +1,18 @@
 .contenedor {
-    width: 100%;
+    width: 111vw;
     height: 35em;
-    /*background-image: url(Pictures/planeta\ del\ tesoro.jpg);*/
-    background-size: cover;
-    background-position: center;
     display: block;
     position: relative;
+    margin: 0;
+    padding: 0;
     
 }
 
 .contenedor::before {
     content: "";
-    position: absolute;
     top: 0;
-    left: -1%;
-    width: 102%;
+    left: 0;
+    width: 100vw;
     height: 100%;
     background: url(Pictures/planeta\ del\ tesoro.jpg) center/cover no-repeat;
     filter: brightness(70%);
@@ -23,6 +21,8 @@
     /* Queda detrás */
     background-size: cover;
     display: block;
+    position: absolute;
+    transform: translate(-8px);
 }
 
 .overlay {
