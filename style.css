@@ -113,3 +113,7 @@ body{
 footer{
     background-color: #000026;
 }
+
+.navbar-nav{
+    padding-right: 1rem;
+}
